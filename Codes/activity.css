@@ -1,0 +1,43 @@
+.destination{
+    font-size: 2.4rem;
+    margin: 0px 80px;
+    text-align: center;
+    color: black;
+    padding-top: 8rem;
+  }
+  .destination h2{
+    margin-bottom: 40px;
+  }
+  .destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  .destination-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 20px;
+  }
+  .destination-item img:hover{
+        transform:scale(1.1);
+    }
+  .destination-item{
+    text-align: center;
+  }
+  .destination-item h3{
+    font-size: 1rem;
+    color: black;
+  }
+  .destination-item p{
+    font-size: 1rem;
+    line-height: 1;
+    color: #333;
+    padding-top: 10px;
+    background-color: rgb(223, 193, 160);
+  }
+  
+
+  
